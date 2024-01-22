@@ -1,0 +1,142 @@
+.home-section2{
+    padding-top:124px;
+}
+.Home-title2{
+    padding-top: 12%;
+}
+
+.top-link a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.top-link a:hover{
+    text-decoration: none;
+    color:var(--secondary)
+}
+
+.top-link .target_ulr{
+    color: var(--primary);
+}
+
+/* section one */
+.achievements-image{
+    width: 10.25rem;
+    height:10.25rem;
+    flex-shrink: 0;
+}
+
+.achievements-sec2-image{
+    margin: auto;
+    border-radius: 100%;
+    width:80px;
+    height: 80px;
+    line-height:90px;
+    list-style: none;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    margin-bottom: -50px!important;
+    text-align: center;
+    margin:auto;
+    border-radius: 5.375rem;
+    background: var(--secondary);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.achievements-sec2-image i{
+ 
+    font-size:40px;
+    color: var(--white);
+}
+.achievements-logo div div ul{
+  margin-right:30px;
+}
+
+
+.achievements-sec2-card-body{
+    padding-top:30%;
+    width:100%;
+    height: 24.29656rem;
+    flex-shrink: 0;
+    background: rgba(254, 111, 7, 0.1);
+    box-shadow: 10px 10px 20px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+.achievements-image-orange{
+        background: var(--primary);
+
+} 
+.achievements-sec2-card-body-green{
+ background-color:rgba(64, 89, 34, 0.1); 
+ padding-top:30%!important;
+ width:100%;
+ height: 24.29656rem;
+ flex-shrink: 0;
+ box-shadow: 10px 10px 20px -9px rgba(0, 0, 0, 0.25);
+ border-radius: 10px;;
+ 
+}
+
+.achievements-sec2-card-body-green p{
+padding:5%;
+color: #000;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 14px;
+line-height: 1.6;
+
+}
+.achievements-sec2-card-body p{
+    padding:5%;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 14px;
+    line-height: 1.6;
+    
+    }
+    
+@media (max-width:768px){
+    .Home-title2{
+        padding-top: 15%;
+    }
+
+    .home-section2{
+        padding-top:84px;
+    }
+    
+    .achievements-image{
+        width: 6.25rem;
+        height:6.25rem;
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width:425px){
+    .Home-title2{
+        padding-top: 25%;
+    }
+
+    .achievements-image
+    {
+        margin-top: 10px;
+        width: 6rem;
+        height:6rem;
+        flex-shrink: 0;
+    }
+}
+@media (max-width:425px){
+    .Home-title2{
+        padding-top: 28%;
+    }
+
+    .achievements-image
+    {
+        margin-top: 10px;
+        width: 6rem;
+        height:6rem;
+        flex-shrink: 0;
+    }
+}

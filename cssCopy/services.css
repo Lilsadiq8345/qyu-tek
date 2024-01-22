@@ -1,0 +1,83 @@
+
+
+.service-card-price-section::before{
+
+}
+.sercives-card{
+    background:rgba(255, 255, 255, 1);
+    margin-bottom: 15px;
+}
+.services-card-price {
+    font-size: 2rem;
+    color: var(--secondary);
+    margin-top: -3%;
+    margin-left: 5px;
+}
+
+.fa-circle-xmark{
+    color: red !important;;
+}
+
+
+
+.services-card-btn{
+    padding:12px 45px;
+    text-decoration: none;
+    color:var(--primary);
+    font-size:18px;
+    font-style: normal;
+    font-weight:400;
+    line-height: normal;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+
+
+.services-card-btn:hover{
+    padding:12px 45px;
+    text-decoration: none;
+    background:var(--primary);
+    color: var(--white);
+    font-size:18px;
+    font-style: normal;
+    font-weight:400;
+    line-height: normal;
+    border: 1px solid var(--primary);
+}
+
+
+.service-section-3-title{
+    text-align: start!important;
+}
+.service-section-3-img{
+    width:24rem;
+}
+
+@media (max-width:428px){
+    .service-section-3{
+        margin:0px 5px!important;
+    }
+    .service-section-3-title{
+        text-align: center!important;
+    }
+    .service-section-3-img{
+        width:20rem;
+        margin-left: 15%;
+    }
+}
+
+
+@media (max-width:375px){
+
+    .service-section-3-img{
+        width:18rem;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width:320px){
+
+    .service-section-3-img{
+        width:15rem;
+    }
+}
